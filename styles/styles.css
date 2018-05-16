@@ -6,3 +6,32 @@
   height: 600px;
   margin-top: 20px;
 }
+
+#timeselector {
+   color: blue;
+   text-decoration: underline;
+   cursor: pointer;
+}
+
+.active {
+   border: 1px dashed red;
+   font-weight: bold;
+}
+
+#right {
+   left: 50%;
+}
+
+#left {
+   position: fixed;
+   top: 0;
+   width: 50%;
+}
+
+.container {
+   width: 100% !important;
+}
+
+p {
+   padding: 5px 0 5px 10px
+}

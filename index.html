@@ -25,13 +25,13 @@
   <body>
       <div class="container">
         <div class="row">
-          <div class="col-xs-12 col-md-6">
+          <div class="col-xs-12 col-md-6" id="left">
             <div id="map"></div>
           </div>
-          <div class="col-xs-12 col-md-6">
+          <div class="col-xs-12 col-md-6" id="right">
             <div id="info">
-              <h1>Earthquakes from the past week:</h1>
-              <!-- <p>M 4.2 - 1km ESE of Fontana, California / 123 hours ago </p> -->
+              <h1>Earthquakes from the past <span id='timeselector'>week</span>:</h1>
+              <div id="quakelist"></div>
             </div>
           </div>
         </div>
