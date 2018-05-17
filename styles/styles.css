@@ -13,11 +13,6 @@
    cursor: pointer;
 }
 
-.active {
-   border: 1px dashed red;
-   font-weight: bold;
-}
-
 #right {
    left: 50%;
 }
@@ -34,4 +29,10 @@
 
 p {
    padding: 5px 0 5px 10px
+}
+
+.active {
+   border: 1px dashed red;
+   padding: 4px 0 4px 8px;
+   font-weight: bold;
 }
